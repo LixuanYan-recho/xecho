@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YCC-Edit</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  </head>
+  <body class="auth-page">
+    <main class="auth-shell">
+      <section class="glass-panel auth-card">
+        <div class="brand-mark">AI</div>
+        <h1>YCC-Edit</h1>
+
+        <form class="auth-form" method="post" action="{{ url_for('auth.login_submit') }}">
+          <label>
+            <span>用户名</span>
+            <input name="username" autocomplete="username" required>
+          </label>
+          <label>
+            <span>密码</span>
+            <input name="password" type="password" autocomplete="current-password" required>
+          </label>
+          {% if error %}
+            <div class="form-error">{{ error }}</div>
+          {% endif %}
+          <button class="primary-button" type="submit">登录</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

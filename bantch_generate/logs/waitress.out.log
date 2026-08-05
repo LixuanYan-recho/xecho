@@ -1,0 +1,433 @@
+[REQUEST_IN] {'request_id': '71e83540965e4c63907675a54e2be221', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '71e83540965e4c63907675a54e2be221', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'e19691f210ab438ba0b49a1d644c41c6', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e19691f210ab438ba0b49a1d644c41c6', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '71e83540965e4c63907675a54e2be221', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'e19691f210ab438ba0b49a1d644c41c6', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'e9059bc418364bf5824e6d622243bc1c', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e9059bc418364bf5824e6d622243bc1c', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '34be5454c0094781b47041e9c154da9b', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '34be5454c0094781b47041e9c154da9b', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'e9059bc418364bf5824e6d622243bc1c', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'cd3339c7fc124f75b593e1150f09ea0e', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'cd3339c7fc124f75b593e1150f09ea0e', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '67220854393646469de51dd97c41b297', 'username': 'yan', 'model': 'nano-banana-pro-2k', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '67220854393646469de51dd97c41b297', 'model': 'nano-banana-pro-2k', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'c3ba18e3169e4bb09fe7833b865510bd', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'c3ba18e3169e4bb09fe7833b865510bd', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'c3ba18e3169e4bb09fe7833b865510bd', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '48bec5b0c8de4d2bad0de0a520ec2408', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '48bec5b0c8de4d2bad0de0a520ec2408', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '48bec5b0c8de4d2bad0de0a520ec2408', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '86f7b26839264284808bcf90774841a5', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '86f7b26839264284808bcf90774841a5', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'bbf93550e5834a689b92b90597dc0597', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'bbf93550e5834a689b92b90597dc0597', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '86f7b26839264284808bcf90774841a5', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'bbf93550e5834a689b92b90597dc0597', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'cd3339c7fc124f75b593e1150f09ea0e', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '41ec40c6aeca41568a7847880ec6c0ff', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '41ec40c6aeca41568a7847880ec6c0ff', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'e900951d2ea042aaaf48224bd3d083ba', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e900951d2ea042aaaf48224bd3d083ba', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '41ec40c6aeca41568a7847880ec6c0ff', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'e900951d2ea042aaaf48224bd3d083ba', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '214096bf5ddc4554a2e89bd0cf84b18a', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '214096bf5ddc4554a2e89bd0cf84b18a', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '2bd05d2272694b7998a82bcb757d599e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '2bd05d2272694b7998a82bcb757d599e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_ERROR] {'request_id': '214096bf5ddc4554a2e89bd0cf84b18a', 'status_code': 400, 'body': '{"error":{"message":"upload image failed: 429 {\\"body\\":\\"\\"} (request id: 2026073116285355433922947006657)","type":"v_api_biz_error","param":"","code":null}}'}
+[REQUEST_IN] {'request_id': '3b45008c77524b1db66e954dd2050c46', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '3b45008c77524b1db66e954dd2050c46', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '2bd05d2272694b7998a82bcb757d599e', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '3b45008c77524b1db66e954dd2050c46', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '4ccaebfb36aa42b095ae56fdbc016f1d', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '4ccaebfb36aa42b095ae56fdbc016f1d', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'e2684bfc6762499790664d96c985c6af', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e2684bfc6762499790664d96c985c6af', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '4ccaebfb36aa42b095ae56fdbc016f1d', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'e2684bfc6762499790664d96c985c6af', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '8c3c7c6df5e14015a080f686e9849076', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '8c3c7c6df5e14015a080f686e9849076', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '4ec37103c962476f9534f7d893b7a9e3', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '4ec37103c962476f9534f7d893b7a9e3', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '4ec37103c962476f9534f7d893b7a9e3', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '8c3c7c6df5e14015a080f686e9849076', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'beefdfc79db14c6db3e3bf19a9e0487f', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'beefdfc79db14c6db3e3bf19a9e0487f', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '4d592449a8a041c2bcbe45d5031d4786', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '4d592449a8a041c2bcbe45d5031d4786', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '953b3f6334f74415854af7022cd65c68', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '953b3f6334f74415854af7022cd65c68', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_ERROR] {'request_id': '4d592449a8a041c2bcbe45d5031d4786', 'status_code': 503, 'body': '{"error":{"message":"all tokens are at concurrency limit (request id: 202607311640268792707889181590)","type":"v_api_biz_error","param":"","code":null}}'}
+[REQUEST_IN] {'request_id': '71a04fb5cfc44468bf3b7352e303fc19', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '71a04fb5cfc44468bf3b7352e303fc19', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '953b3f6334f74415854af7022cd65c68', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '71a04fb5cfc44468bf3b7352e303fc19', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '71785666abeb4d7dbc7e7474a1ca1a9d', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '71785666abeb4d7dbc7e7474a1ca1a9d', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '9cda4b9a91664ba78ab103fa678ab786', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '9cda4b9a91664ba78ab103fa678ab786', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '71785666abeb4d7dbc7e7474a1ca1a9d', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '9cda4b9a91664ba78ab103fa678ab786', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '8fbd668b99da4913a15269ee8de62e14', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '8fbd668b99da4913a15269ee8de62e14', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '26776c59e639484aa10c890e76b626e6', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '26776c59e639484aa10c890e76b626e6', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '26776c59e639484aa10c890e76b626e6', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '8fbd668b99da4913a15269ee8de62e14', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '99f2ab5bf20c4823ae3ce8d09a4704fa', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '99f2ab5bf20c4823ae3ce8d09a4704fa', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '7a79e50a849f467aa9c410f0a9a9e648', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '7a79e50a849f467aa9c410f0a9a9e648', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '7a79e50a849f467aa9c410f0a9a9e648', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '99f2ab5bf20c4823ae3ce8d09a4704fa', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '3387791b090a4531908b556b9dda09a1', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '3387791b090a4531908b556b9dda09a1', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '5d970283ec1245b794e43cf29aa68343', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '5d970283ec1245b794e43cf29aa68343', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '3387791b090a4531908b556b9dda09a1', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '5d970283ec1245b794e43cf29aa68343', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'f2af3fff7f55446084f9ea3240202fc3', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'f2af3fff7f55446084f9ea3240202fc3', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'c5f3e3752f2c487a94d70b16fcf70eb9', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'c5f3e3752f2c487a94d70b16fcf70eb9', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_ERROR] {'request_id': 'c5f3e3752f2c487a94d70b16fcf70eb9', 'status_code': 400, 'body': '{"error":{"message":"upload image failed: 429 {\\"body\\":\\"\\"} (request id: 2026073116545394127864036773502)","type":"v_api_biz_error","param":"","code":null}}'}
+[UPSTREAM_ERROR] {'request_id': 'f2af3fff7f55446084f9ea3240202fc3', 'status_code': 400, 'body': '{"error":{"message":"upload image failed: 429 {\\"body\\":\\"\\"} (request id: 2026073116545374625305737372475)","type":"v_api_biz_error","param":"","code":null}}'}
+[REQUEST_IN] {'request_id': 'b1e8e7a7983347d195abad1c8228c2c2', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'b1e8e7a7983347d195abad1c8228c2c2', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '372e3fcc723d4f2db7dd3241aac42ed9', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '372e3fcc723d4f2db7dd3241aac42ed9', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '372e3fcc723d4f2db7dd3241aac42ed9', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'b1e8e7a7983347d195abad1c8228c2c2', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '9d82645d6fac49a48f464959010f4f63', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '9d82645d6fac49a48f464959010f4f63', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '9d82645d6fac49a48f464959010f4f63', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '2141d22fcc9a4bc1b30b4deea2a9c971', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '2141d22fcc9a4bc1b30b4deea2a9c971', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '96ea71262a92498b9d93dcce738fdb26', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '96ea71262a92498b9d93dcce738fdb26', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '2141d22fcc9a4bc1b30b4deea2a9c971', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '96ea71262a92498b9d93dcce738fdb26', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '40319ebdd5f746228398779db2517d47', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '40319ebdd5f746228398779db2517d47', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'd639199e944a42abb13703d31f634a81', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'd639199e944a42abb13703d31f634a81', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_ERROR] {'request_id': '40319ebdd5f746228398779db2517d47', 'status_code': 408, 'body': '{"error":{"message":"submit failed: 408 {\\"error_code\\":\\"timeout_error\\",\\"message\\":\\"Unknown internal error\\"} (request id: 2026073117040736343206818358952)","type":"v_api_biz_error","param":"","code":null}}'}
+[REQUEST_IN] {'request_id': '7d6bc216245349a58184495678b79c30', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '7d6bc216245349a58184495678b79c30', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'd639199e944a42abb13703d31f634a81', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '7d6bc216245349a58184495678b79c30', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '3bb5dabfb8994160ac2363203f5a8502', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 3}
+[UPSTREAM_REQUEST] {'request_id': '3bb5dabfb8994160ac2363203f5a8502', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 3}
+[REQUEST_IN] {'request_id': '10c5155fca0f4f5eba28ec627c9ed5d2', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 3}
+[UPSTREAM_REQUEST] {'request_id': '10c5155fca0f4f5eba28ec627c9ed5d2', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 3}
+[REQUEST_IN] {'request_id': '3e0651bb669941008cfcb10245239aef', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '3e0651bb669941008cfcb10245239aef', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '97316041e4ce483aaead1b589334c0e6', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '97316041e4ce483aaead1b589334c0e6', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '10c5155fca0f4f5eba28ec627c9ed5d2', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '3bb5dabfb8994160ac2363203f5a8502', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '3e0651bb669941008cfcb10245239aef', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '97316041e4ce483aaead1b589334c0e6', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '726fe7da723d405f85a8f6e9f655097f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '726fe7da723d405f85a8f6e9f655097f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'b56377f27a9a4947979b5de6fc5a21ab', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'b56377f27a9a4947979b5de6fc5a21ab', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '726fe7da723d405f85a8f6e9f655097f', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'b56377f27a9a4947979b5de6fc5a21ab', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '598eaa085c344059966bd7821c5e1b9e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '598eaa085c344059966bd7821c5e1b9e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '0e9e89fd906b4e259de4bf21eb9ee981', 'username': 'yan', 'model': 'nano-banana-pro-2k', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '0e9e89fd906b4e259de4bf21eb9ee981', 'model': 'nano-banana-pro-2k', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'ae88ceb139044006a80f1d76669543e3', 'username': 'yan', 'model': 'nano-banana-pro-2k', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ae88ceb139044006a80f1d76669543e3', 'model': 'nano-banana-pro-2k', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '598eaa085c344059966bd7821c5e1b9e', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '2f8dc9442d2a405c92bdf7ac71fe4eb4', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '2f8dc9442d2a405c92bdf7ac71fe4eb4', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '0d40da3e7c994323adeeec9f4ebf70f7', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '0d40da3e7c994323adeeec9f4ebf70f7', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '2f8dc9442d2a405c92bdf7ac71fe4eb4', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '0d40da3e7c994323adeeec9f4ebf70f7', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'd1c7c029eb584501b23c222388b426dd', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'd1c7c029eb584501b23c222388b426dd', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'e04f23d5fefd4804904e080f7648e33a', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e04f23d5fefd4804904e080f7648e33a', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'd1c7c029eb584501b23c222388b426dd', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '0c952ee1fb3145a7aa0a38e5cd90788a', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '0c952ee1fb3145a7aa0a38e5cd90788a', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'e04f23d5fefd4804904e080f7648e33a', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '0c952ee1fb3145a7aa0a38e5cd90788a', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '154e687fd9a04c44883472883f6eb44b', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '154e687fd9a04c44883472883f6eb44b', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'b0764023e6954c5ca11c19b5f88d1e34', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'b0764023e6954c5ca11c19b5f88d1e34', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'b0764023e6954c5ca11c19b5f88d1e34', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '154e687fd9a04c44883472883f6eb44b', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '2ee3c61ea3654d7ebd63650ef4e241f1', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '2ee3c61ea3654d7ebd63650ef4e241f1', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '5d158dae81434efa9e9803532eb5439c', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '5d158dae81434efa9e9803532eb5439c', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '5d158dae81434efa9e9803532eb5439c', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '2ee3c61ea3654d7ebd63650ef4e241f1', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'daeca52b25a94b4cbe8f7b0251367b6f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'daeca52b25a94b4cbe8f7b0251367b6f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '596ca9e5818d4c92848610bb4ea40100', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '596ca9e5818d4c92848610bb4ea40100', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'daeca52b25a94b4cbe8f7b0251367b6f', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '8e0f8f4c95894f6f834140cc1fb391ad', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '8e0f8f4c95894f6f834140cc1fb391ad', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '282b1f6b309641a784af2388b215378a', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '282b1f6b309641a784af2388b215378a', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '596ca9e5818d4c92848610bb4ea40100', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '8e0f8f4c95894f6f834140cc1fb391ad', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '282b1f6b309641a784af2388b215378a', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'ba21b70d10894e7c8f39bd1fc9caff21', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 3}
+[UPSTREAM_REQUEST] {'request_id': 'ba21b70d10894e7c8f39bd1fc9caff21', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 3}
+[REQUEST_IN] {'request_id': '5f26c7bfe84b44be89746269bdfe7922', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 3}
+[UPSTREAM_REQUEST] {'request_id': '5f26c7bfe84b44be89746269bdfe7922', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 3}
+[TASK_DONE] {'request_id': '5f26c7bfe84b44be89746269bdfe7922', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'ba21b70d10894e7c8f39bd1fc9caff21', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'ea7343a193dd496a8ebbb7834178fd0a', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ea7343a193dd496a8ebbb7834178fd0a', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '4f389242bd1146769c312654864d8c87', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '4f389242bd1146769c312654864d8c87', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'ea7343a193dd496a8ebbb7834178fd0a', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '4f389242bd1146769c312654864d8c87', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'e55731511de947d1b70dc883f859340f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e55731511de947d1b70dc883f859340f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '5c2c55f7660546e6b6a8df71bf3300cf', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '5c2c55f7660546e6b6a8df71bf3300cf', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '5c2c55f7660546e6b6a8df71bf3300cf', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'f650502d2b6e477fbb18007c7c1de67f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'f650502d2b6e477fbb18007c7c1de67f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '690358eaf6c64cd488e573a2185c6801', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '690358eaf6c64cd488e573a2185c6801', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'e55731511de947d1b70dc883f859340f', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '690358eaf6c64cd488e573a2185c6801', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'f650502d2b6e477fbb18007c7c1de67f', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '01f1bacae7ee4a4fa2f492d14e76902f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '01f1bacae7ee4a4fa2f492d14e76902f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'ab45d4558e7842a29541d3824e830604', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ab45d4558e7842a29541d3824e830604', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '01f1bacae7ee4a4fa2f492d14e76902f', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'ab45d4558e7842a29541d3824e830604', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '9ea700d8c5a041979da6ad938253dc69', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '9ea700d8c5a041979da6ad938253dc69', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'b6d1c35521c2416ca3e55dc82ab5e673', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'b6d1c35521c2416ca3e55dc82ab5e673', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'ff19391e9ea84955a25fe90f5602bc01', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ff19391e9ea84955a25fe90f5602bc01', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'c53bc0d6b190422688c6c794d53ae776', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'c53bc0d6b190422688c6c794d53ae776', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'b6d1c35521c2416ca3e55dc82ab5e673', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '9ea700d8c5a041979da6ad938253dc69', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '07b06ff3ec7d43b1a5e541f732e6433b', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '07b06ff3ec7d43b1a5e541f732e6433b', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '9d7d7193431a4cb0ab00559141628e88', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '9d7d7193431a4cb0ab00559141628e88', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'ff19391e9ea84955a25fe90f5602bc01', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'c53bc0d6b190422688c6c794d53ae776', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '07b06ff3ec7d43b1a5e541f732e6433b', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '9d7d7193431a4cb0ab00559141628e88', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '77f7f79afd924931b0f5c0a87312b7cc', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '77f7f79afd924931b0f5c0a87312b7cc', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'c700a665c4db4b39889c04e50ded0f1b', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'c700a665c4db4b39889c04e50ded0f1b', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '4425163d90584fb4b1038b3ad42d4f1c', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '4425163d90584fb4b1038b3ad42d4f1c', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '7053884822454ed1a580b97e45c17bbf', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '7053884822454ed1a580b97e45c17bbf', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'c700a665c4db4b39889c04e50ded0f1b', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '77f7f79afd924931b0f5c0a87312b7cc', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '7053884822454ed1a580b97e45c17bbf', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '4425163d90584fb4b1038b3ad42d4f1c', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'cf3c9522754d4d2996afac45078f9d05', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'cf3c9522754d4d2996afac45078f9d05', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'ed607b6b8bfa4fb49222ba200a8e0eb5', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ed607b6b8bfa4fb49222ba200a8e0eb5', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'a829e87183474f418278b8b9c9e98131', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'a829e87183474f418278b8b9c9e98131', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'aac4b3cebc084589aa9160288da11ebb', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'aac4b3cebc084589aa9160288da11ebb', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '288d36d578f04d539f19030c8d1b6808', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '288d36d578f04d539f19030c8d1b6808', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'e86a931649b84410b0a8df43770e319c', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e86a931649b84410b0a8df43770e319c', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'a829e87183474f418278b8b9c9e98131', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'aac4b3cebc084589aa9160288da11ebb', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'e86a931649b84410b0a8df43770e319c', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '288d36d578f04d539f19030c8d1b6808', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'd96efcd7f87a4712a98b57404c437563', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'd96efcd7f87a4712a98b57404c437563', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '193b7b9a722c4089949162d2e646223e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '193b7b9a722c4089949162d2e646223e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '2fe8bc8b8f19460e95ae738de5dc11cf', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '2fe8bc8b8f19460e95ae738de5dc11cf', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'dae4f43625e94256b48b172444e7b48f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'dae4f43625e94256b48b172444e7b48f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '193b7b9a722c4089949162d2e646223e', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'd96efcd7f87a4712a98b57404c437563', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '3676c89da02a4b059f5529a6c78cd801', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '3676c89da02a4b059f5529a6c78cd801', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'fb4349730ad642da89b203d2e247202c', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'fb4349730ad642da89b203d2e247202c', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'dae4f43625e94256b48b172444e7b48f', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '2fe8bc8b8f19460e95ae738de5dc11cf', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '7a22e9d898bc401d9175a4db36784492', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '7a22e9d898bc401d9175a4db36784492', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '6f272b2181bc4ddea1397321cb37d978', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '6f272b2181bc4ddea1397321cb37d978', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'fb4349730ad642da89b203d2e247202c', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '3676c89da02a4b059f5529a6c78cd801', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '6973ea02503c4bcfad69e2c436346536', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '6973ea02503c4bcfad69e2c436346536', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '1c8a9fb82ccb42e09b4fc8b9360b5f60', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '1c8a9fb82ccb42e09b4fc8b9360b5f60', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '7a22e9d898bc401d9175a4db36784492', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '6f272b2181bc4ddea1397321cb37d978', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '6973ea02503c4bcfad69e2c436346536', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '8a76e8d5cffc46998c50db3e8655d0c6', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '8a76e8d5cffc46998c50db3e8655d0c6', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '644b5ce6d885479ca261f5301c3bbd98', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '644b5ce6d885479ca261f5301c3bbd98', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '1c8a9fb82ccb42e09b4fc8b9360b5f60', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'aed9d6d7fc2c4c3fa18450830632538e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'aed9d6d7fc2c4c3fa18450830632538e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'd875c5fa49034a969bc651f34ca195e4', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'd875c5fa49034a969bc651f34ca195e4', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '80d6785a422c42c89e5e485b065df342', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '80d6785a422c42c89e5e485b065df342', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'af446aa2059a4f7089b47052032f5386', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'af446aa2059a4f7089b47052032f5386', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '644b5ce6d885479ca261f5301c3bbd98', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '8a76e8d5cffc46998c50db3e8655d0c6', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'd875c5fa49034a969bc651f34ca195e4', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'aed9d6d7fc2c4c3fa18450830632538e', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'af446aa2059a4f7089b47052032f5386', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '80d6785a422c42c89e5e485b065df342', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'd3810b2c91244bb3a8eeb0c2eb89c4eb', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'd3810b2c91244bb3a8eeb0c2eb89c4eb', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'fc09099d6d854c4784499f3f462db706', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'fc09099d6d854c4784499f3f462db706', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'fc09099d6d854c4784499f3f462db706', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'd3810b2c91244bb3a8eeb0c2eb89c4eb', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '8ffa94716a9b4cc19080628b7c12eca1', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '8ffa94716a9b4cc19080628b7c12eca1', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '3ef76c6d9e264b388f39112bad6cff1e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '3ef76c6d9e264b388f39112bad6cff1e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '1cf977af40c94116a9257ebede21e918', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '1cf977af40c94116a9257ebede21e918', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '1981eebbf1a6400f8219a68444238e5b', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '1981eebbf1a6400f8219a68444238e5b', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '3ef76c6d9e264b388f39112bad6cff1e', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '8ffa94716a9b4cc19080628b7c12eca1', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '1cf977af40c94116a9257ebede21e918', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '1981eebbf1a6400f8219a68444238e5b', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'af5fce42e94e4efcb68b3b7d0ce1e7ad', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': 'af5fce42e94e4efcb68b3b7d0ce1e7ad', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'b24e0c9f2e054aec808f2e78975880b5', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': 'b24e0c9f2e054aec808f2e78975880b5', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 1}
+[TASK_DONE] {'request_id': 'af5fce42e94e4efcb68b3b7d0ce1e7ad', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'b24e0c9f2e054aec808f2e78975880b5', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '16f4d13b3f6b4b408da2eacb53d12db1', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': '16f4d13b3f6b4b408da2eacb53d12db1', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'c77efa93271d4e3b898fe1ac0f2eb72f', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': 'c77efa93271d4e3b898fe1ac0f2eb72f', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 1}
+[TASK_DONE] {'request_id': 'c77efa93271d4e3b898fe1ac0f2eb72f', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '16f4d13b3f6b4b408da2eacb53d12db1', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'f99f9200e4d5417685ca68edab2d1599', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'f99f9200e4d5417685ca68edab2d1599', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '3914ce61fa9549ca879f8f9f3508f308', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '3914ce61fa9549ca879f8f9f3508f308', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'f19ea8b7f7de45c6b4316ac7bd930e13', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'f19ea8b7f7de45c6b4316ac7bd930e13', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'f99f9200e4d5417685ca68edab2d1599', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '994b8073f3474de7a744afea92629909', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '994b8073f3474de7a744afea92629909', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '1c71415356ac41c7b6d75c0884d1e318', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '1c71415356ac41c7b6d75c0884d1e318', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'f19ea8b7f7de45c6b4316ac7bd930e13', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '994b8073f3474de7a744afea92629909', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '1c71415356ac41c7b6d75c0884d1e318', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'ce766d71f24b41f8be8115cfea6dd5f4', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ce766d71f24b41f8be8115cfea6dd5f4', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '89df06b5018342db85856d04781dde5d', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '89df06b5018342db85856d04781dde5d', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '89df06b5018342db85856d04781dde5d', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'ce766d71f24b41f8be8115cfea6dd5f4', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '16411fefc15546d6b9c33e44bbe3936e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': '16411fefc15546d6b9c33e44bbe3936e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'bfe78dc4c011492698c6fdfb494de3b8', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': 'bfe78dc4c011492698c6fdfb494de3b8', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 1}
+[TASK_DONE] {'request_id': '16411fefc15546d6b9c33e44bbe3936e', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'bfe78dc4c011492698c6fdfb494de3b8', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '6489726e8c874019b175e28803133e79', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '6489726e8c874019b175e28803133e79', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'c0c3414cf79145619339d87d2202a877', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'c0c3414cf79145619339d87d2202a877', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'a6dfadc3690a44deb328f8aca741a8be', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'a6dfadc3690a44deb328f8aca741a8be', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '690e5a68b2fd4f529d33bd5cd937a12e', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '690e5a68b2fd4f529d33bd5cd937a12e', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'c0c3414cf79145619339d87d2202a877', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '6489726e8c874019b175e28803133e79', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '690e5a68b2fd4f529d33bd5cd937a12e', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'a6dfadc3690a44deb328f8aca741a8be', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'e6fd31d5dcc84133821dbff5931324ff', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'e6fd31d5dcc84133821dbff5931324ff', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '207b7f8f9ad34de79ca321d1444147e9', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '207b7f8f9ad34de79ca321d1444147e9', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'e6fd31d5dcc84133821dbff5931324ff', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '207b7f8f9ad34de79ca321d1444147e9', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '35615d53a68e44df9790897e3e8aa738', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '35615d53a68e44df9790897e3e8aa738', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}[REQUEST_IN] {'request_id': 'cea8487ebb4a4a399fe1f34e4e57b7db', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'cea8487ebb4a4a399fe1f34e4e57b7db', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+
+[TASK_DONE] {'request_id': '35615d53a68e44df9790897e3e8aa738', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'cea8487ebb4a4a399fe1f34e4e57b7db', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '7da17cb222ea41bcab9538dbdda5582f', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '7da17cb222ea41bcab9538dbdda5582f', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '93b76a30adad4cff83d1644ccb782c2f', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '93b76a30adad4cff83d1644ccb782c2f', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '93b76a30adad4cff83d1644ccb782c2f', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '7da17cb222ea41bcab9538dbdda5582f', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'aa76aff7ed1d4d4eb220bfffa8c242c2', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[UPSTREAM_REQUEST] {'request_id': 'aa76aff7ed1d4d4eb220bfffa8c242c2', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[REQUEST_IN] {'request_id': '005b119d5bd847e089a60b39562f65e9', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[UPSTREAM_REQUEST] {'request_id': '005b119d5bd847e089a60b39562f65e9', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[TASK_DONE] {'request_id': '005b119d5bd847e089a60b39562f65e9', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'aa76aff7ed1d4d4eb220bfffa8c242c2', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'bf2232d95f564925bb0d8877bd863d08', 'username': 'yan', 'model': 'gpt-image-2', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[UPSTREAM_REQUEST] {'request_id': 'bf2232d95f564925bb0d8877bd863d08', 'model': 'gpt-image-2', 'has_size': True, 'size': '1920x2560', 'has_aspect_ratio': False, 'image_count': 2}
+[REQUEST_IN] {'request_id': '544d7daa2bcd48ea8699d43911379d65', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[UPSTREAM_REQUEST] {'request_id': '544d7daa2bcd48ea8699d43911379d65', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 2}
+[TASK_DONE] {'request_id': '544d7daa2bcd48ea8699d43911379d65', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'bf2232d95f564925bb0d8877bd863d08', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '86ffe91a8d624b1e88ce2802ee61d7a1', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '86ffe91a8d624b1e88ce2802ee61d7a1', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': '6b1c9f20341d421ba04e8a6f3a1450a4', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '6b1c9f20341d421ba04e8a6f3a1450a4', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': '86ffe91a8d624b1e88ce2802ee61d7a1', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '6b1c9f20341d421ba04e8a6f3a1450a4', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '477a34239b4046f4acc577e299b50702', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '477a34239b4046f4acc577e299b50702', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'c1c248e3666043edb76063dcc1999207', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'c1c248e3666043edb76063dcc1999207', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'c1c248e3666043edb76063dcc1999207', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '477a34239b4046f4acc577e299b50702', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '49290d8cf84348688cdbbf13bc80e572', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '49290d8cf84348688cdbbf13bc80e572', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'eb9bff81532e41bfba50c853039d99fc', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'eb9bff81532e41bfba50c853039d99fc', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': False, 'image_count': 4}
+[TASK_DONE] {'request_id': 'eb9bff81532e41bfba50c853039d99fc', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': '49290d8cf84348688cdbbf13bc80e572', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '6158741deb4c422aab3962d3f4f5a232', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': True, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': '6158741deb4c422aab3962d3f4f5a232', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': True, 'image_count': 4}
+[REQUEST_IN] {'request_id': 'ce247b37a1974f02bd5b0a9d98de204e', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': True, 'image_count': 4}
+[UPSTREAM_REQUEST] {'request_id': 'ce247b37a1974f02bd5b0a9d98de204e', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': True, 'image_count': 4}
+[TASK_DONE] {'request_id': '6158741deb4c422aab3962d3f4f5a232', 'task_id': None, 'image_count': 1}
+[TASK_DONE] {'request_id': 'ce247b37a1974f02bd5b0a9d98de204e', 'task_id': None, 'image_count': 1}
+[REQUEST_IN] {'request_id': '4ebb87eb09e24001a1cb3741a09e2765', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': True, 'image_count': 1}
+[UPSTREAM_REQUEST] {'request_id': '4ebb87eb09e24001a1cb3741a09e2765', 'model': 'nano-banana-pro', 'has_size': True, 'size': '2k', 'has_aspect_ratio': True, 'image_count': 1}
+[REQUEST_IN] {'request_id': 'faa0a18daf224a28b18e5c2a7fbad4ab', 'username': 'yan', 'model': 'nano-banana-pro', 'key_env_var': 'v', 'received_image_size': True, 'image_size_value': '2k', 'has_aspect_ratio': True, 'image_count': 4}

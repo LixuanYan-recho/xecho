@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}设置 - YCC-Edit{% endblock %}
+{% block content %}
+  <main class="admin-layout">
+    <section class="glass-panel admin-card">
+      <div class="section-heading">
+        <div>
+          <h2>创建账号</h2>
+          <p class="section-description">账号会固定使用指定的本机密钥环境变量。</p>
+        </div>
+      </div>
+
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+          <div class="flash-message {{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endwith %}
+
+      <form class="settings-form" method="post" action="{{ url_for('admin.create_user') }}">
+        <label><span>账号名</span><input name="username" maxlength="64" autocomplete="off" required></label>
+        <label><span>密码</span><input name="password" type="password" minlength="6" autocomplete="new-password" required></label>
+        <label><span>本地密钥变量名</span><input name="api_key_env_var" maxlength="128" placeholder="例如：v 或 user_a_key" autocomplete="off" required></label>
+        <label>
+          <span>身份类型</span>
+          <select name="role" required>
+            <option value="user">用户</option>
+            <option value="admin">管理员</option>
+          </select>
+        </label>
+        <button class="primary-button" type="submit">创建账号</button>
+      </form>
+    </section>
+
+    <section class="glass-panel admin-card">
+      <div class="section-heading"><h2>现有账号</h2><span>{{ users|length }} 个</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>账号</th><th>身份</th><th>密钥变量</th><th>状态</th><th>创建时间</th><th>修改密码</th></tr></thead>
+          <tbody>
+            {% for user in users %}
+              <tr>
+                <td>{{ user.username }}</td>
+                <td>{{ {'user': '用户', 'admin': '管理员', 'super_admin': '超级管理员'}[user.role] }}</td>
+                <td><code>{{ user.api_key_env_var }}</code></td>
+                <td>{{ '启用' if user.is_active else '停用' }}</td>
+                <td>{{ user.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                <td>
+                  <form class="inline-password-form" method="post" action="{{ url_for('admin.update_user_password', user_id=user.id) }}">
+                    <input name="password" type="password" minlength="6" placeholder="输入新密码" autocomplete="new-password" required>
+                    <button class="ghost-button" type="submit">修改</button>
+                  </form>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+{% endblock %}

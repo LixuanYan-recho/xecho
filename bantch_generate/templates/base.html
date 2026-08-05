@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}YCC-Edit{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-title">
+        <p class="eyebrow">YCC-Edit</p>
+      </div>
+      <div class="topbar-actions">
+        <span class="user-badge">{{ current_user.username }}</span>
+        <nav class="page-tabs" aria-label="主导航">
+          <a class="ghost-button {% if request.endpoint == 'auth.index' %}active{% endif %}" href="{{ url_for('auth.index') }}">生图</a>
+          {% if current_user.role in ['admin', 'super_admin'] %}
+            <a class="ghost-button {% if request.endpoint == 'admin.usage' %}active{% endif %}" href="{{ url_for('admin.usage') }}">用量</a>
+          {% endif %}
+          {% if current_user.role == 'super_admin' %}
+            <a class="ghost-button {% if request.endpoint in ['admin.settings', 'admin.create_user'] %}active{% endif %}" href="{{ url_for('admin.settings') }}">设置</a>
+          {% endif %}
+        </nav>
+        <form method="post" action="{{ url_for('auth.logout') }}">
+          <button class="ghost-button" type="submit">退出</button>
+        </form>
+      </div>
+    </header>
+    {% block content %}{% endblock %}
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

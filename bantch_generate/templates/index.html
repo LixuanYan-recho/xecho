@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <main class="app-layout">
+    <section class="glass-panel composer">
+      <div class="section-heading workflow-heading">
+        <h2>请求参数</h2>
+        <div class="workflow-tabs" role="tablist" aria-label="生成模式">
+          <button class="workflow-tab active" type="button" data-workflow="outfit">AI换装</button>
+          <button class="workflow-tab" type="button" data-workflow="white_background">AI白底图</button>
+          <button class="workflow-tab" type="button" data-workflow="custom">自定义</button>
+        </div>
+      </div>
+
+      <form id="generateForm">
+        <input id="generationMode" name="generation_mode" type="hidden" value="outfit_single">
+
+        <div class="parameter-toolbar workflow-parameter-toolbar">
+          <div class="aspect-ratio-inline">
+            <label for="aspectRatioSelect">比例</label>
+            <select id="aspectRatioSelect" name="aspect_ratio">
+              <option value="" selected>自动</option>
+              <option value="1:1">1:1</option><option value="2:3">2:3</option>
+              <option value="3:2">3:2</option><option value="3:4">3:4</option>
+              <option value="4:3">4:3</option><option value="4:5">4:5</option>
+              <option value="5:4">5:4</option><option value="9:16">9:16</option>
+              <option value="16:9">16:9</option><option value="21:9">21:9</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mode-panel active" data-panel="outfit">
+          <div class="outfit-tabs" role="tablist" aria-label="换装类型">
+            <button class="outfit-tab active" type="button" data-outfit-mode="outfit_single">整体换装</button>
+            <button class="outfit-tab" type="button" data-outfit-mode="outfit_multi">多件换装</button>
+          </div>
+
+          <div class="outfit-panel active" data-outfit-panel="outfit_single">
+            <div class="fixed-upload-grid two-slots">
+              <label class="fixed-upload-slot">
+                <input type="file" accept="image/*" data-fixed-mode="outfit_single" data-slot-index="0">
+                <button class="fixed-slot-remove" type="button" aria-label="取消模特图">×</button>
+                <span class="fixed-slot-preview"><span class="upload-icon small">+</span></span>
+                <span class="fixed-slot-title">上传模特图</span>
+                <span class="fixed-slot-file">未选择图片</span>
+              </label>
+              <label class="fixed-upload-slot">
+                <input type="file" accept="image/*" data-fixed-mode="outfit_single" data-slot-index="1">
+                <button class="fixed-slot-remove" type="button" aria-label="取消参考图">×</button>
+                <span class="fixed-slot-preview"><span class="upload-icon small">+</span></span>
+                <span class="fixed-slot-title">上传参考图</span>
+                <span class="fixed-slot-file">未选择图片</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="outfit-panel" data-outfit-panel="outfit_multi">
+            <div class="fixed-upload-grid three-slots">
+              <label class="fixed-upload-slot">
+                <input type="file" accept="image/*" data-fixed-mode="outfit_multi" data-slot-index="0">
+                <button class="fixed-slot-remove" type="button" aria-label="取消模特图">×</button>
+                <span class="fixed-slot-preview"><span class="upload-icon small">+</span></span>
+                <span class="fixed-slot-title">模特图</span>
+                <span class="fixed-slot-file">未选择图片</span>
+              </label>
+              <label class="fixed-upload-slot">
+                <input type="file" accept="image/*" data-fixed-mode="outfit_multi" data-slot-index="1">
+                <button class="fixed-slot-remove" type="button" aria-label="取消上装">×</button>
+                <span class="fixed-slot-preview"><span class="upload-icon small">+</span></span>
+                <span class="fixed-slot-title">上装</span>
+                <span class="fixed-slot-file">未选择图片</span>
+              </label>
+              <label class="fixed-upload-slot">
+                <input type="file" accept="image/*" data-fixed-mode="outfit_multi" data-slot-index="2">
+                <button class="fixed-slot-remove" type="button" aria-label="取消下装">×</button>
+                <span class="fixed-slot-preview"><span class="upload-icon small">+</span></span>
+                <span class="fixed-slot-title">下装</span>
+                <span class="fixed-slot-file">未选择图片</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mode-panel" data-panel="white_background">
+          <div class="fixed-upload-grid one-slot">
+            <label class="fixed-upload-slot product-slot">
+              <input type="file" accept="image/*" data-fixed-mode="white_background" data-slot-index="0">
+              <button class="fixed-slot-remove" type="button" aria-label="取消产品图">×</button>
+              <span class="fixed-slot-preview"><span class="upload-icon small">+</span></span>
+              <span class="fixed-slot-title">上传产品图</span>
+              <span class="fixed-slot-file">未选择图片</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="mode-panel" data-panel="custom">
+          <div class="control-group">
+            <label for="prompt">PROMPT</label>
+            <textarea id="prompt" name="prompt" rows="7" placeholder="请输入自定义提示词。"></textarea>
+          </div>
+
+          <div class="control-group custom-upload-group">
+            <div class="upload-heading">
+              <label>图片顺序</label>
+              <button id="clearImagesButton" class="clear-images-button" type="button">清空</button>
+            </div>
+            <label class="upload-box" for="imageInput">
+              <input id="imageInput" type="file" accept="image/*" multiple>
+              <span class="upload-icon">+</span>
+              <span class="upload-title">选择图片</span>
+              <span class="upload-subtitle">按选择顺序加入列表，可再次选择继续追加；每张不超过 5 MB</span>
+            </label>
+            <div id="imageList" class="image-list"></div>
+          </div>
+        </div>
+
+        <p id="formMessage" class="form-message"></p>
+
+        <div class="split-controls">
+          <fieldset class="control-group">
+            <legend>模型</legend>
+            <div class="segmented">
+              <label><input type="radio" name="model" value="nano-banana-pro" checked><span>nano-banana-pro</span></label>
+              <label><input type="radio" name="model" value="nano-banana-pro-2k"><span>nano-banana-pro-2k</span></label>
+              <label><input type="radio" name="model" value="gpt-image-2"><span>gpt-image-2</span></label>
+              <label><input type="radio" name="model" value="gpt-image-2-c"><span>gpt-image-2-c</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="control-group" id="imageSizeGroup">
+            <legend>画质</legend>
+            <div class="segmented compact">
+              <label><input type="radio" name="image_size" value="1k"><span>1k</span></label>
+              <label><input type="radio" name="image_size" value="2k" checked><span>2k</span></label>
+              <label><input type="radio" name="image_size" value="4k"><span>4k</span></label>
+            </div>
+          </fieldset>
+        </div>
+
+        <button class="primary-button generate-button" type="submit">生成</button>
+      </form>
+    </section>
+
+    <section class="results-column">
+      <div class="section-heading">
+        <h2>生成任务</h2>
+        <span id="taskCount">0 个任务</span>
+      </div>
+      <div id="tasks" class="tasks empty-state"><p>生成后，任务卡片会出现在这里。</p></div>
+    </section>
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  <script type="module" src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% endblock %}
