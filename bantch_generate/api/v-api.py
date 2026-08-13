@@ -1,7 +1,6 @@
 import requests, pathlib
 
 BASE_URL = "https://api.gpt.ge/v1"
-API_KEY = "sk-FwfDEULzYLRgwI9b93F963Ea767846E2B5D8Dc79127eC637"
 MODEL = "nano-banana-pro"
 IMAGES = [
     r"E:\YYC\搭配\90S2010758+90J5010635\2025.04.03leshero10955.jpg",
